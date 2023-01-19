@@ -21,7 +21,7 @@ google colab
 ![image](https://user-images.githubusercontent.com/93864811/213376177-e8d7d84d-3935-445a-a222-bab8f3868f8d.png)
 * User에게 question을 하나 질문으로 입력받고 정답과 정답에 해당하는 이미지를 stable diffusion으로 생성 후 정답과 같이 화면에 띄어줌
 
-## Keyword 추출 & Crawling
+# Keyword 추출 & Crawling
 * User에게 입력받은 질문으로부터 주요 keyword를 추출한 후 추출된 키워드를 기반으로 빅카인즈(뉴스기사 검색사이트)에서 뉴스기사 검색 후 크롤링
 * keyword 추출시 빅카인즈 내에 키워드 추출 프로그램 사용 후 중복제거해서 사용
 * 정답의 정확도를 높이기 위해 10개의 뉴스기사를 수집
