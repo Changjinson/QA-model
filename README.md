@@ -1,13 +1,13 @@
 # QA-model
 2022년 2학기 데이터사이언스 특론 term-project
-kobert & stable diffusion을 이용하여 대회형 질문에 대한 정답과 이미지를 같이 보여주는 Q&A model 개발
+kobert & stable diffusion을 이용하여 대화형 질문에 대한 정답과 이미지를 같이 보여주는 Q&A model 개발
 
 # 환경
 google colab
 
 # Member
 * 손창진 (keyword extraction, crawling, Q&A model, Translation model)
-* 김준석 (keyword extraction, crawling, Image generation, flask web 개발)
+* 김oo (keyword extraction, crawling, Image generation, flask web 개발)
 
 # Data
 #### kobert
