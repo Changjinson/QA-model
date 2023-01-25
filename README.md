@@ -37,9 +37,11 @@ google colab
 # Translation
 * stable diffusin 2 모델이 영어만 지원하기 때문에 한국어 -> 영어 번역이 필요
 * skt에서 개발한 kogpt2 모델을 fine-tunning하여 사용해 보았을때 문장수준에서 번역은 어느정도 잘 하였으나 고유명사나 사람이름 등을 인식하지 못함
+* kogpt2를 fine-tunning 할때에 번역의 성능을 높이는 것이 중요했는데 이것을 위해 backtranslation을 사용하여 성능평가를 해봄
+* backtranslation 결과와 quoqago 번역기의 bleu score가 더 낮은 것을 보면 fine tunning한 모델에 더 점수를 잘 주는 편향이 존재한다는 것을 알 수있음
 * 고유명사를 인식하는 모델까지 개발해서 사용하고 싶었지만 시간적인 문제와 한-영 고유명사 매핑 데이터를 수집하는데 어려움이 있어 다른 번역모델 사용
 
-![image](https://user-images.githubusercontent.com/93864811/213505790-f2161f6d-9608-436c-9ed0-cfc86fe5abf2.png)
+![image](https://user-images.githubusercontent.com/93864811/214504790-64905edd-dcc5-4b9c-9b5e-7c63e84c2815.png)
 
 
 #### Kogpt fine-tunning Result
